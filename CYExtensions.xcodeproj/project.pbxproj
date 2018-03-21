@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DCFB5802061F78500EDB7DF /* CYExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCFB57E2061F78500EDB7DF /* CYExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DCFB58D2061F7A000EDB7DF /* CYExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFB58C2061F7A000EDB7DF /* CYExtensionsTests.swift */; };
+		1DCFB58D2061F7A000EDB7DF /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFB58C2061F7A000EDB7DF /* StringTests.swift */; };
 		1DCFB58F2061F7A000EDB7DF /* CYExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCFB57B2061F78500EDB7DF /* CYExtensions.framework */; };
 		1DCFB5962061F80100EDB7DF /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFB5952061F80100EDB7DF /* DoubleExtensions.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 		1DCFB57E2061F78500EDB7DF /* CYExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYExtensions.h; sourceTree = "<group>"; };
 		1DCFB57F2061F78500EDB7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DCFB58A2061F7A000EDB7DF /* CYExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DCFB58C2061F7A000EDB7DF /* CYExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYExtensionsTests.swift; sourceTree = "<group>"; };
+		1DCFB58C2061F7A000EDB7DF /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		1DCFB58E2061F7A000EDB7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DCFB5952061F80100EDB7DF /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 		1DCFB58B2061F7A000EDB7DF /* CYExtensionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DCFB58C2061F7A000EDB7DF /* CYExtensionsTests.swift */,
+				1DCFB58C2061F7A000EDB7DF /* StringTests.swift */,
 				1DCFB58E2061F7A000EDB7DF /* Info.plist */,
 			);
 			path = CYExtensionsTests;
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DCFB58D2061F7A000EDB7DF /* CYExtensionsTests.swift in Sources */,
+				1DCFB58D2061F7A000EDB7DF /* StringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

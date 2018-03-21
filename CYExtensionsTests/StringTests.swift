@@ -22,14 +22,19 @@ class CYExtensionsTests: XCTestCase {
     }
     
     func testDigits() {
-//        XCTAssertEqual(Double(1.0).digits(), ([1], []))
-//        XCTAssertEqual(Double(12.0).digits(), ([1, 2], []))
-//        XCTAssertEqual(Double(103.0).digits(), ([1, 0, 3], []))
-//        XCTAssertEqual(Double(1.230).digits(), ([1], [2, 3]))
-//        XCTAssertEqual(Double(1.0345).digits(), ([1], [0, 3, 4, 5]))
+        XCTAssertEqual(Double(0.0).digits().integral, [])
+        XCTAssertEqual(Double(1.0).digits().integral, [1])
+        XCTAssertEqual(Double(12.0).digits().integral, [1, 2])
+        XCTAssertEqual(Double(123.0).digits().integral, [1, 2, 3])
+        XCTAssertEqual(Double(1234.0).digits().integral, [1, 2, 3, 4])
+        
+        XCTAssertEqual(Double(1.0).digits().decimal, [])
+        XCTAssertEqual(Double(1.1).digits().decimal, [1])
+        XCTAssertEqual(Double(1.12).digits().decimal, [1, 2])
+        XCTAssertEqual(Double(1.123).digits().decimal, [1, 2, 3])
     }
     
-    func testExample() {
+    func testToChineseNumeral() {
         XCTAssertEqual(Double(0.0).toChineseNumeral(), "零")
         XCTAssertEqual(Double(1.0).toChineseNumeral(), "一")
         XCTAssertEqual(Double(10.0).toChineseNumeral(), "一十")
